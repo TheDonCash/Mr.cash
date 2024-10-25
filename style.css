@@ -17,6 +17,7 @@ header{
 }
 .title .line1{
     font-size: 4rem;
+    margin-bottom: 30px;
 }
 .logo{
     width: auto;
@@ -55,6 +56,7 @@ a.primary:hover{
 .hero a.signup{
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+    font-size: 15px;
     padding: 7px 20px;
     border-radius: 5mm;
     border: .5mm solid rgb(55, 255, 0);
@@ -85,8 +87,8 @@ a.primary:hover{
     margin: 20px 0;
     
 }
-.caption{
-    font-family: "Poppins", sans-serif;
+.hero .caption{
+    font-family: "Poppins";
     font-size: 16px;
     margin-bottom: 40px;
 }
@@ -109,6 +111,7 @@ a.primary:hover{
 .hero a.explore{
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+    font-size: 15px;
     padding: 7px 20px;
     border-radius: 5mm;
     border: .5mm solid rgb(55, 255, 0);
@@ -147,7 +150,7 @@ a.primary:hover{
     padding: 30px;
     box-sizing: border-box;
     margin: 20px 0;
-    font-family: "MuseoModerno", sans-serif;
+    font-family: "MuseoModerno";
     height: auto;
     
     
@@ -404,17 +407,15 @@ footer a,.footer-right{
         gap: 0.1;
         height: 50vh;
     }
-    .hero{
-        height: 100vh;
-    }
     .shop:hover{
         opacity: 1;
         
         filter: grayscale(0%);
         scale: 1;
     }
+    
     .box{
-        height: 80vh;
+        margin-bottom: 100px;
     }
     .shop{
         align-items: center;
@@ -422,7 +423,7 @@ footer a,.footer-right{
         cursor: pointer;
         background: transparent;
         width: fit-content;
-        margin-bottom: 5px;
+        margin-bottom: 100px;
         margin: 1;
     }
     .square{
