@@ -427,11 +427,23 @@ footer a,.footer-right{
         margin: 1;
     }
     .square{
-        padding: 10px;
+        padding: 5px;
         background-color: rgb(255, 255, 255);
         border-radius: .5mm;
         position: relative;
         transition: all .35s ease;
-        width: 100px; 
+        width: 90px;
+    }
+    .purchase{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        font-size: 13px;
+        padding: 3px 3px;
+        font-family: "Poppins";
+        border: .5mm solid black;
+        border-radius: 5mm;
+    }
+    .purchase:hover{
+        background-color: rgb(12, 213, 45);
     }
 }
