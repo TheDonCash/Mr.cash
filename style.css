@@ -211,22 +211,24 @@ a.primary:hover{
 }
 
 .square{
-    padding: 10px;
+    padding: 0px;
     background-color: rgb(232, 240, 254);
-    border-radius: .5mm;
+    border-radius: 5mm;
     position: relative;
     width: 200px;
-    border: .7mm solid black;
+    border: .9mm solid black;
+    cursor: pointer;
 
 }
 .square:hover{
-    border: .7mm solid rgb(205, 55, 55);
+    border: .9mm solid rgb(205, 55, 55);
 }
     
 .shop .square img{
     height: auto;
     width: 100%;
     border-radius: 4mm;
+    
 }
 .shop .square h4{
     font-size: 14px;
@@ -254,19 +256,7 @@ a.primary:hover{
     justify-content: center;
     font-size: 20px;
     color: rgb(0, 0, 0);
-}
-
-.purchase{
-    background-color: rgb(202, 214, 234);
-    color: black;
-    padding: 4px 4px;
-    font-family: "Poppins";
-    border: .5mm solid black;
-    border-radius: 5mm;
-    cursor: pointer;
-}
-.purchase:hover{
-    background-color: rgb(12, 213, 45);
+    border-radius: 3mm;
 }
 footer{
     width: 100%;
@@ -312,6 +302,9 @@ footer a,.footer-right{
     .market{
         gap: 1%;
     }
+    .shop{
+        transition: 0s;
+    }
     .shop:hover{
         opacity: 1;
         
@@ -344,6 +337,7 @@ footer a,.footer-right{
     .shop{
         margin: 0;
         margin-bottom: 5px;
+        transition: 0s;
     }
     .square{
         width: 120px;
@@ -407,6 +401,7 @@ footer a,.footer-right{
     .shop{
         margin-bottom: 50px;
         margin: 1;
+        transition: 0s;
     }
     .square{
         padding: 5px;
