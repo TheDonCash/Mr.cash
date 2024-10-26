@@ -141,7 +141,7 @@ a.primary:hover{
 }
 .box{
     width: 80%;
-    background: rgb(232, 240, 254);
+    background-color: rgb(232, 240, 254);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,7 +179,6 @@ a.primary:hover{
 .box-description{
     width: 100%;
     font-size: 15px;
-    text-align: justify;
     font-family: "Poppins", sans-serif;
 }
 .market{
@@ -198,43 +197,45 @@ a.primary:hover{
 .shop{
     align-items: center;
     text-align: center;
-    cursor: pointer;
     background: transparent;
     width: fit-content;
     margin: 0 10px;
     transition: .3s all ease;
     filter: grayscale(30%);
+    
 }
 .shop:hover{
     opacity: 1;
-    
     filter: grayscale(0%);
     scale: 1.05;
 }
 
 .square{
     padding: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(232, 240, 254);
     border-radius: .5mm;
     position: relative;
-    transition: all .35s ease;
     width: 200px;
+    border: .7mm solid black;
 
 }
+.square:hover{
+    border: .7mm solid rgb(205, 55, 55);
+}
+    
 .shop .square img{
     height: auto;
     width: 100%;
+    border-radius: 4mm;
 }
 .shop .square h4{
     font-size: 14px;
     letter-spacing: 1px;
     font-family: "Poppins";
-    
     margin: 0;
 }
 .shop .square h5{
     font-size: 15px;
-    
     letter-spacing: 1.4px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -247,7 +248,7 @@ a.primary:hover{
     left: 0;
     width: 35px;
     height: 35px;
-    background: rgb(255, 255, 255);
+    background: rgb(202, 214, 234);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -256,12 +257,13 @@ a.primary:hover{
 }
 
 .purchase{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(202, 214, 234);
     color: black;
     padding: 4px 4px;
     font-family: "Poppins";
     border: .5mm solid black;
     border-radius: 5mm;
+    cursor: pointer;
 }
 .purchase:hover{
     background-color: rgb(12, 213, 45);
@@ -317,11 +319,6 @@ footer a,.footer-right{
         scale: 1;
     }
     .square{
-        padding: 10px;
-        background-color: rgb(255, 255, 255);
-        border-radius: .5mm;
-        position: relative;
-        transition: all .35s ease;
         width: 200px;
 }
 }
@@ -345,20 +342,10 @@ footer a,.footer-right{
         scale: 1;
     }
     .shop{
-        align-items: center;
-        text-align: center;
-        cursor: pointer;
-        background: transparent;
-        width: fit-content;
         margin: 0;
         margin-bottom: 5px;
     }
     .square{
-        padding: 10px;
-        background-color: rgb(255, 255, 255);
-        border-radius: .5mm;
-        position: relative;
-        transition: all .35s ease;
         width: 120px;
     
     }
@@ -415,29 +402,18 @@ footer a,.footer-right{
     }
     
     .box{
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .shop{
-        align-items: center;
-        text-align: center;
-        cursor: pointer;
-        background: transparent;
-        width: fit-content;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         margin: 1;
     }
     .square{
         padding: 5px;
-        background-color: rgb(255, 255, 255);
-        border-radius: .5mm;
-        position: relative;
-        transition: all .35s ease;
         width: 90px;
     }
     .purchase{
-        background-color: rgb(255, 255, 255);
-        color: black;
-        font-size: 13px;
+        font-size: 11px;
         padding: 3px 3px;
         font-family: "Poppins";
         border: .5mm solid black;
@@ -445,5 +421,18 @@ footer a,.footer-right{
     }
     .purchase:hover{
         background-color: rgb(12, 213, 45);
+    }
+    .shop .square .cart i{
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
+    }
+    .shop .square h5{
+        font-size: 13px;
+        letter-spacing: 1.4px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #0a9328;
+        font-family: "MuseoModerno";
     }
 }
