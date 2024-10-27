@@ -213,7 +213,7 @@ a.primary:hover{
 .square{
     padding: 0px;
     background-color: rgb(232, 240, 254);
-    border-radius: 5mm;
+    border-radius: 4mm;
     position: relative;
     width: 200px;
     border: .9mm solid black;
