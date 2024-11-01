@@ -28,16 +28,18 @@
                     <h2 class="line1">The Don</h2>
                     <div class="line">Absorbs all my knowledge</div>
                 </div>
-                <div class="caption">Sign Up and you will receive daily newsletter from me.</div>
+                <div class="caption">Subscribe and you will receive daily newsletter from me.</div>
                 <div class="links">
-                    <a href="#" class="signup">Sign Up</a>
+                    <a href="#" class="signup" id="subscribe">Subscribe</a>
                     <a href="#" class="explore">Explore</a>
                 </div>
             </div>
+
             <div class="hero-right">
                 <img src="matrix.jpg">
             </div>
         </div>
+        
         <div class="content">
             <div class="box">
                 <div class="box-left">
@@ -51,13 +53,14 @@
                 <p class="box-description">Luxury Bars and Lounges - Sip on handcrafted cocktails while enjoying live entertainment and a vibrant atmosphere </p>
             </div>
         </div>
+        
         <!---market starts-->
         <div class="market">
             <div class="shop">
                 <div class="square">
                     <div class="img"><img src="black.jpg"></div>
-                    <h4>Black Tracksuit.</h4>
-                    <h5>$14.99</h5>
+                    <h4>Black Tracksuit</h4>
+                    
                     <div class="cart">
                         <i class='bx bx-cart'></i>
                     </div>
@@ -66,8 +69,8 @@
             <div class="shop">
                 <div class="square">
                     <div class="img"><img src="grey.jpg"></div>
-                    <h4>Grey Tracksuit.</h4>
-                    <h5>$14.99</h5>
+                    <h4>Grey Tracksuit</h4>
+                    
                     <div class="cart">
                         <i class='bx bx-cart'></i>
                     </div>
@@ -76,24 +79,38 @@
             <div class="shop">
                 <div class="square">
                     <div class="img"><img src="white.jpg"></div>
-                    <h4>White Tracksuit.</h4>
-                    <h5>$14.99</h5>
+                    <h4>White Tracksuit</h4>
+    
                     <div class="cart">
                       <i class='bx bx-cart'></i>
                     </div>
                 </div>
             </div>  
         </div> 
-        
+        <div class="contact-container" id="subscribe">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get Newsletter</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="d27ac3af-855c-4653-9ddd-8dba78f48bf7">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs">
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            
         </div>
+        
         <footer>
             <div class="footer-left">
                 <a href="#">Home</a>
                 <a href="#">About Us</a>
                 <a href="#">Contact Us</a>
             </div>
-            <div class="footer-right"> Owned by TheDon</div>
+            <div class="footer-right"> Owned by TheDon<hr></div>
         </footer>
+
+        <script src="script.js"></script>
 
     </body>
 </html>
